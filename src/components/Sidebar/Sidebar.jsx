@@ -1,5 +1,6 @@
 import React from "react";
+import styles from "./Sidebar.module.css";
 
 export default function Sidebar() {
-  return <div className="debug-border">Sidebar</div>;
+  return <div className={`${styles.sidebar}`}>Sidebar</div>;
 }

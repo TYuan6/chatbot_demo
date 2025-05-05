@@ -9,7 +9,7 @@ export default function MainPage() {
   return (
     <div className="main-page">
       <Navbar />
-      <div className="main-container debug-border">
+      <div className="main-container">
         <Sidebar />
         <MainContent />
       </div>
