@@ -1,10 +1,18 @@
 import React from "react";
 import "../styles.css";
 
+import Navbar from "../components/Navbar/Navbar";
+import Sidebar from "../components/Sidebar/Sidebar";
+import MainContent from "../components/MainContent/MainContent";
+
 export default function MainPage() {
   return (
-    <div className="MainPage">
-      MainPage
+    <div className="main-page">
+      <Navbar />
+      <div className="main-container debug-border">
+        <Sidebar />
+        <MainContent />
+      </div>
     </div>
   );
 }
