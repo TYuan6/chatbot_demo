@@ -1,15 +1,14 @@
 import React from "react";
-import "../styles.css";
 
 import Navbar from "../components/Navbar/Navbar";
 import Sidebar from "../components/Sidebar/Sidebar";
 import MainContent from "../components/MainContent/MainContent";
 
-export default function MainPage() {
+export default function MainLayout() {
   return (
-    <div className="main-page">
+    <div className="main-layout">
       <Navbar />
-      <div className="main-container">
+      <div className="main-layout-body">
         <Sidebar />
         <MainContent />
       </div>

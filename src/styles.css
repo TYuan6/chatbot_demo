@@ -10,13 +10,13 @@ body {
   box-sizing: border-box;
 }
 
-.main-page {
+.main-layout {
   display: grid;
   grid-template-rows: 100px auto;
   height: 100vh;
 }
 
-.main-container {
+.main-layout-body {
   display: grid;
   grid-template-columns: 12rem auto;
   grid-gap: 10px;
