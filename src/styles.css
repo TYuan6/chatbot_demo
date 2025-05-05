@@ -1,6 +1,20 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.debug-border {
+  border: 1px dashed black;
+}
+
+#root {
   box-sizing: border-box;
 }
 
+.main-page {
+  display: grid;
+  grid-template-rows: 100px auto;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-gap: 10px;
+}
